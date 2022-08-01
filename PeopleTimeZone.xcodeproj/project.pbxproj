@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6B3053828986A3100B13D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3053728986A3100B13D4D /* AppDelegate.swift */; };
-		C6B3053A28986A3100B13D4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3053928986A3100B13D4D /* SceneDelegate.swift */; };
 		C6B3053C28986A3100B13D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3053B28986A3100B13D4D /* ViewController.swift */; };
 		C6B3053F28986A3100B13D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B3053D28986A3100B13D4D /* Main.storyboard */; };
 		C6B3054128986A3600B13D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B3054028986A3600B13D4D /* Assets.xcassets */; };
@@ -16,6 +14,7 @@
 		C6B3054F28986A3600B13D4D /* PeopleTimeZoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3054E28986A3600B13D4D /* PeopleTimeZoneTests.swift */; };
 		C6B3055928986A3600B13D4D /* PeopleTimeZoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3055828986A3600B13D4D /* PeopleTimeZoneUITests.swift */; };
 		C6B3055B28986A3600B13D4D /* PeopleTimeZoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3055A28986A3600B13D4D /* PeopleTimeZoneUITestsLaunchTests.swift */; };
+		C6B30568289873EA00B13D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B30567289873EA00B13D4D /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +36,6 @@
 
 /* Begin PBXFileReference section */
 		C6B3053428986A3100B13D4D /* PeopleTimeZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleTimeZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6B3053728986A3100B13D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6B3053928986A3100B13D4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C6B3053B28986A3100B13D4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6B3053E28986A3100B13D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6B3054028986A3600B13D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		C6B3055428986A3600B13D4D /* PeopleTimeZoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeopleTimeZoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B3055828986A3600B13D4D /* PeopleTimeZoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTimeZoneUITests.swift; sourceTree = "<group>"; };
 		C6B3055A28986A3600B13D4D /* PeopleTimeZoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTimeZoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6B30567289873EA00B13D4D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +97,7 @@
 		C6B3053628986A3100B13D4D /* PeopleTimeZone */ = {
 			isa = PBXGroup;
 			children = (
-				C6B3053728986A3100B13D4D /* AppDelegate.swift */,
-				C6B3053928986A3100B13D4D /* SceneDelegate.swift */,
+				C6B30567289873EA00B13D4D /* AppDelegate.swift */,
 				C6B3053B28986A3100B13D4D /* ViewController.swift */,
 				C6B3053D28986A3100B13D4D /* Main.storyboard */,
 				C6B3054028986A3600B13D4D /* Assets.xcassets */,
@@ -258,9 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B30568289873EA00B13D4D /* AppDelegate.swift in Sources */,
 				C6B3053C28986A3100B13D4D /* ViewController.swift in Sources */,
-				C6B3053828986A3100B13D4D /* AppDelegate.swift in Sources */,
-				C6B3053A28986A3100B13D4D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
